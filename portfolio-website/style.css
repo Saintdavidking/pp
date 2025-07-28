@@ -1,0 +1,280 @@
+/* --- Modern Dark Theme --- */
+
+/* Root Variables */
+:root {
+    --bg-color: #121212; /* Near Black */
+    --surface-color: #1E1E1E; /* Lighter Charcoal for cards/surfaces */
+    --primary-text: #E0E0E0; /* Off-white for readability */
+    --secondary-text: #A0A0A0; /* Gray for subtitles and descriptions */
+    --accent-gradient: linear-gradient(90deg, #8E2DE2, #4A00E0); /* Vibrant Purple Gradient */
+    --accent-color-start: #8E2DE2;
+    --accent-color-end: #4A00E0;
+    --font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+}
+
+/* General Elements */
+.section-title {
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(18, 18, 18, 0.75) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--accent-color-start) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+    background-attachment: fixed; /* Parallax effect */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 18, 18, 0.8);
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section .tagline {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--secondary-text);
+    min-height: 2.25rem; /* Reserve space to prevent layout shift */
+}
+.hero-section h2 {
+    min-height: 4.5rem; /* Reserve space for two lines */
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: var(--accent-gradient);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-gradient:hover {
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* About Section */
+.about-section {
+    background-color: var(--surface-color);
+    border-radius: 15px;
+    margin: -80px auto 0 auto; /* Pulls section up */
+    position: relative;
+    z-index: 3;
+    max-width: 1140px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.headshot-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--surface-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-section p {
+    color: var(--secondary-text);
+    line-height: 1.8;
+}
+
+/* Shared Card Styles */
+.card {
+    background-color: var(--surface-color);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card-title {
+    color: var(--primary-text);
+    font-weight: 600;
+}
+
+.card-text {
+    flex-grow: 1;
+    color: var(--secondary-text);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Tutorials & Projects Sections */
+.tutorials-section, .projects-section {
+    background-color: var(--bg-color);
+}
+
+.tech-stack span {
+    background-color: rgba(142, 45, 226, 0.15);
+    color: #c495fd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer-section {
+    background: var(--surface-color);
+}
+
+.contact-email a {
+    color: var(--primary-text);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.contact-email a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--accent-gradient);
+    transition: width 0.4s ease;
+}
+
+.contact-email a:hover::after {
+    width: 100%;
+}
+
+.social-links a {
+    color: var(--secondary-text);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-text);
+    transform: translateY(-3px);
+}
+
+.copy-right {
+    color: var(--secondary-text);
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/* --- Pagination Styles --- */
+.pagination .page-link {
+    background-color: var(--surface-color);
+    color: var(--secondary-text);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 4px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-text);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.pagination .page-item.active .page-link {
+    background: var(--accent-gradient);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: transparent;
+}
+
+/* --- Animations & Typing Effect --- */
+.typed-cursor {
+    color: var(--accent-color-start);
+    font-weight: 300;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-title-animate {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+.hero-subtitle-animate {
+    animation: fadeInUp 0.8s 0.2s ease-out forwards;
+    opacity: 0; /* Start hidden */
+}
+.hero-tagline-animate {
+    animation: fadeInUp 0.8s 0.4s ease-out forwards;
+    opacity: 0; /* Start hidden */
+}
+.hero-button-animate {
+    animation: fadeInUp 0.8s 0.6s ease-out forwards;
+    opacity: 0; /* Start hidden */
+}
