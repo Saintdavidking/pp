@@ -83,6 +83,13 @@ document.addEventListener("DOMContentLoaded", function() {
             imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop"
         },
         {
+            name: "Real-Time User Login Alert",
+            description: "Real-time login alerts can help you detect unauthorized access attempts or provide useful analytics.",
+            tech: ["Nextjs", "Strapi", "Nodejs", "SendGrid", "Twilio"],
+            link: "https://github.com/Saintdavidking/UserLoginAlerts",
+            imageUrl: "soup.png"
+        },
+        {
             name: "Next.js + Turbopack App",
             description: "This playground is a mirror of the Next.js v13 App Directory Playground, but uses Turbopack as the Next.js development server (next dev --turbo).",
             tech: ["JavaScript", "Turbopack", "Next.js", "Tailwind CSS via PostCSS", ],
@@ -114,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
             name: "Go-GRPC-Microservice",
             description: "An example of a high-performance microservice architecture using Go and gRPC for efficient communication.",
             tech: ["Go", "gRPC", "Protobuf"],
-            link: "https://github.com/Saintdavidking/Go-GRPC-Microservice",
+            link: "https://github.com/Saintdavidking/UserLoginAlerts",
             imageUrl: "https://images.unsplash.com/photo-1590595906939-de7257a03418?q=80&w=1974&auto=format&fit=crop"
         }
     ];
