@@ -90,6 +90,20 @@ document.addEventListener("DOMContentLoaded", function() {
             imageUrl: "soup.png"
         },
         {
+            name: "Facial-Emotion-Recognition-With-Python-and-OpenCV",
+            description: "Facial emotion recognition is a fascinating and powerful application of computer vision and machine learning, offering insights into human emotions through advanced technology.",
+            tech: ["Python", "OpenCV", "Vscode"],
+            link: "https://github.com/Saintdavidking/Facial-Emotion-Recognition-With-Python-and-OpenCV",
+            imageUrl: "soup.png"
+        },
+        {
+            name: "SMS-Auto-Respond-With-Twilio-and-Golang",
+            description: "Real-time SMS suto- responder using both Golang and Twilio for business.",
+            tech: ["Phone", "Golang", "Twilio"],
+            link: "https://github.com/Saintdavidking/sms-auto-respond-with-Twilio-and-Golang",
+            imageUrl: "soup.png"
+        },
+        {
             name: "Next.js + Turbopack App",
             description: "This playground is a mirror of the Next.js v13 App Directory Playground, but uses Turbopack as the Next.js development server (next dev --turbo).",
             tech: ["JavaScript", "Turbopack", "Next.js", "Tailwind CSS via PostCSS", ],
@@ -115,14 +129,14 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "A command-line interface tool that uses AI to automate common developer tasks and answer queries.",
             tech: ["Python", "OpenAI API", "Typer"],
             link: "https://github.com/Saintdavidking/AI-CLI-Tool",
-            imageUrl: "https://images.unsplash.com/photo-1678483789493-2715b7d60e75?q=80&w=1974&auto=format&fit=crop"
+            imageUrl: "soup.png"
         },
         {
             name: "Go-GRPC-Microservice",
             description: "An example of a high-performance microservice architecture using Go and gRPC for efficient communication.",
             tech: ["Go", "gRPC", "Protobuf"],
             link: "https://github.com/Saintdavidking/UserLoginAlerts",
-            imageUrl: "https://images.unsplash.com/photo-1590595906939-de7257a03418?q=80&w=1974&auto=format&fit=crop"
+            imageUrl: "soup.png"
         }
     ];
 
