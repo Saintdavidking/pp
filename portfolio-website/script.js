@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             title: "Build a One-Time Password-Based Login System using Go and Twilio",
             description: "In a world where data breaches are a constant threat, passwordless authentication methods like One-Time Passwords (OTPs) have become the go-to solution for secure logins. Pairing the simplicity of Go with the robust messaging power of Twilio, you can build a seamless OTP login system in no time.",
-            imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop",
+            imageUrl: "https://www.twilio.com/content/dam/twilio-com/global/en/blog/developers/developers-imagery-by-post/h-l/how-to-build-a-real-time-sms-status-tracking-and-logging-using-go-and-twilio/Card-developer-logo-3.png",
             link: "https://www.twilio.com/en-us/blog/build-one-time-password-based-login-system-using-go-twilio"
         },
         {
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "Real-time login alerts can help you detect unauthorized access attempts or provide useful analytics.",
             tech: ["Nextjs", "Strapi", "Nodejs", "SendGrid", "Twilio"],
             link: "https://github.com/Saintdavidking/UserLoginAlerts",
-            imageUrl: "soup.png"
+            imageUrl: "https://www.twilio.com/content/dam/twilio-com/global/en/blog/developers/developers-imagery-by-post/h-l/how-to-build-a-real-time-sms-status-tracking-and-logging-using-go-and-twilio/Card-developer-logo-3.png"
         },
         {
             name: "Facial-Emotion-Recognition-With-Python-and-OpenCV",
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "Real-time SMS suto- responder using both Golang and Twilio for business.",
             tech: ["Phone", "Golang", "Twilio"],
             link: "https://github.com/Saintdavidking/sms-auto-respond-with-Twilio-and-Golang",
-            imageUrl: "soup.png"
+            imageUrl: "https://www.twilio.com/content/dam/twilio-com/global/en/blog/developers/developers-imagery-by-post/h-l/how-to-build-a-real-time-sms-status-tracking-and-logging-using-go-and-twilio/Card-developer-logo-3.png"
         },
         {
             name: "Next.js + Turbopack App",
