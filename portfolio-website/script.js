@@ -55,6 +55,12 @@ document.addEventListener("DOMContentLoaded", function() {
             link: "https://medium.com/@davidfagb/how-to-send-a-follow-up-call-to-users-in-a-symfony-app-using-twilio-212b1f00706f"
         },
         {
+            title: "The Case for OAuth",
+            description: "As developers and teams build more complex applications, one of the toughest parts they deal with is managing access and permissions. With more use of cloud services, APIs, and mobile apps, ensuring only authorized personnel can access these systems has become a big challenge.",
+            imageUrl: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2bEPlwF9oAViMli0yMM0Pw.png",
+            link: "https://medium.com/@davidfagb/the-case-for-oauth-bf015601967d"
+        },
+        {
             title: "Top Python Frameworks For Game Development",
             description: "This article will teach you about the top Python frameworks for your next game development adventure.",
             imageUrl: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=1974&auto=format&fit=crop",
